@@ -2,12 +2,12 @@
 
 ## Week 1: Linux Basics & Environment
 
-### Day 1 – Introduction to Linux & Distributions
+### [Day 1 – Introduction to Linux & Distributions](./Day01_Introduction/)
 - History and philosophy of Linux
 - Popular distributions: Ubuntu, CentOS, Debian, Red Hat
 - Installation on VirtualBox/VMware or Cloud
 
-### Day 2 – Linux Filesystem Structure
+### [Day 2 – Linux Filesystem Structure](./Day02_Filesystem_Structure/)
 - FHS (Filesystem Hierarchy Standard)
 - Key directories: `/etc`, `/var`, `/home`, `/root`, `/boot`, `/proc`
 
@@ -39,7 +39,7 @@
 
 ## Week 2: Shell Scripting & Process Management
 
-### Day 8 – Shell & Bash Basics
+### [Day 8 – Shell & Bash Basics](./Day08_Shell_Basics/)
 - Shell types
 - Bash environment, aliases, variables
 
