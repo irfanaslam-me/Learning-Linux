@@ -43,10 +43,10 @@
 - Shell types
 - Bash environment, aliases, variables
 
-### Day 9 – Writing Basic Shell Scripts
+### [Day 9 – Writing Basic Shell Scripts](./Day09_Shell_Scripting/)
 - Shebang, variables, `echo`, `read`, conditions, loops
 
-### Day 10 – Scheduled Tasks (Cron Jobs)
+### [Day 10 – Scheduled Tasks (Cron Jobs)](./Day10_Cron_Jobs/)
 - `crontab` syntax and examples
 - `at`, `anacron`
 - Logging cron jobs
