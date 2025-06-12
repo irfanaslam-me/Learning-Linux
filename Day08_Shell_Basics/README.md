@@ -13,13 +13,17 @@ The **shell** is a command-line interface (CLI) that allows users to interact wi
 
 ### Common Shells in Linux:
 
-| Shell | Description |
-|-------|-------------|
-| `sh`  | Bourne shell (original shell) |
-| `bash` | Bourne Again SHell (most common, default in many distros) |
-| `zsh` | Z Shell (advanced features, popular in modern setups) |
-| `csh` | C shell (C-like syntax) |
-| `fish` | Friendly Interactive Shell (user-friendly features) |
+| Shell  | Description                                                           | Common OS Usage                  | Benefits / Features                                                                | Typical Use Case                                           |
+| ------ | --------------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `sh`   | The original Bourne Shell, minimal and portable                       | Legacy Unix, POSIX systems       | Lightweight, high portability, POSIX-compliant                                     | Legacy scripts, portable scripts for all Unix-like systems |
+| `bash` | Bourne Again SHell; default shell on most Linux distros               | Ubuntu, Debian, CentOS, RHEL     | Widely supported, scripting-friendly, command history, job control, tab completion | General-purpose scripting and administration               |
+| `zsh`  | Z Shell; modern and extensible shell with scripting enhancements      | macOS (default), Arch, Kali      | Powerful autocompletion, plugin/theme support (Oh My Zsh), syntax highlighting     | Interactive terminal use and power-user environments       |
+| `csh`  | C Shell with C-like syntax and scripting style                        | BSD systems (FreeBSD, OpenBSD)   | C-style scripting syntax, good for interactive use on BSD systems                  | BSD user scripting, historical use                         |
+| `tcsh` | Enhanced version of `csh` with additional features                    | FreeBSD, OpenBSD, some Linux     | Command-line editing, history, tab-completion                                      | Replacement for `csh` with modern usability improvements   |
+| `fish` | Friendly Interactive Shell with a focus on usability                  | Cross-platform, Linux/macOS      | Smart suggestions, autosuggestions, syntax highlighting, intuitive syntax          | Beginners, user-friendly interactive shell                 |
+| `dash` | Debian Almquist Shell, a lightweight POSIX-compliant shell            | Debian, Ubuntu (for `/bin/sh`)   | Fast, low memory footprint, good for system boot scripts                           | `/bin/sh` for startup scripts and speed-critical tasks     |
+| `ksh`  | KornShell, powerful scripting shell with features from `sh` and `csh` | AIX, Solaris, older UNIX systems | Arrays, arithmetic operations, job control                                         | Enterprise UNIX environments, legacy applications          |
+
 
 > 💡 Most Linux distros use **bash** as the default shell.
 
